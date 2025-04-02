@@ -1,0 +1,34 @@
+.sibar {
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    top: 0;
+    left: 0;
+}
+
+.sibar h2 {
+    margin-bottom: 20px
+    
+}
+
+.sibar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.sibar li {
+   margin-bottom: 10px
+}
+
+.sibar a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.sibar a:hover {
+    background-color: #c4baba;
+}
+
