@@ -6,7 +6,7 @@ function NavBar() {
     <>
     <header>
     <div className="logo">
-          <a href="/"><img src="logo.png" alt="mon logo" /></a>
+          <a href=""><img src="logo.png" alt="Logo" /></a>
     </div>
         <nav>
             <ul>
