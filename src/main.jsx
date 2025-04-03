@@ -12,8 +12,8 @@ import Footer from './components/partials/Footer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <SiBar />
     <NavBar />
+    <SiBar />
     <Footer />
   </StrictMode>,
 )
