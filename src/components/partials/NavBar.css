@@ -2,13 +2,14 @@ header {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    background-color: #333; 
+    background-color: #ece0e0; 
     padding: 15px 30px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     box-sizing: border-box;
+    color: blue;
 }
 
 body {
@@ -38,7 +39,7 @@ nav ul li {
 }
 nav ul li a { 
     text-decoration: none; 
-    color: white; 
+    color: rgb(28, 37, 88); 
     font-size: 18px; 
     transition: color 0.3s ease;
     transform: 0.2s ease;
