@@ -1,0 +1,27 @@
+.footer {
+    background-color: #1a202c; /* Couleur de fond gris foncé */
+    color: white; /* Texte en blanc */
+    padding: 20px 0; /* Espacement en haut et en bas */
+    margin-top: 40px; /* Marge en haut */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacement entre les liens */
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #facc15; /* Jaune clair au survol */
+  }
+  
