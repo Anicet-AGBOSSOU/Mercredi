@@ -5,7 +5,7 @@ import './index.css'
 import SiBar from './components/partials/SiBar.jsx';
 import NavBar from './components/partials/NavBar.jsx';
 import Footer from './components/partials/Footer.jsx';
-import Footer from './components/Form.jsx';
+//import Footer from './components/Form.jsx';
 
 
 
