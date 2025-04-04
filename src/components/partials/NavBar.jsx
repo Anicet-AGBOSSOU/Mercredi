@@ -1,20 +1,25 @@
 import React from 'react'
-import './NavBar.css'
+//import './NavBar.css'
 function NavBar() {
     
   return (
     <>
     <header>
-    <div className="logo">
-          <a href="/"><img src="logo.png" alt="mon logo" /></a>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">CAEB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Accueil </a>
+      <a class="nav-item nav-link" href="#">Profil</a>
+      <a class="nav-item nav-link" href="#">Form </a>
+     
     </div>
-        <nav>
-            <ul>
-                <li><a href="#Accueil"></a>Accueil</li>
-                <li><a href="#Profil"></a>Profil</li>
-                <li><a href="#Form"></a>Form</li>
-            </ul>
-        </nav>
+  </div>
+</nav>
     </header>
     </>
   )
