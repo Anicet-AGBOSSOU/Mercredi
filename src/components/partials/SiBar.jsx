@@ -1,5 +1,5 @@
 import React from 'react';
-import './SiBar.css'
+import './SiBar.css';
 
 function SiBar() {
   return (
@@ -18,4 +18,4 @@ function SiBar() {
   )
 }
 
-export default SiBar
+export default SiBar;
