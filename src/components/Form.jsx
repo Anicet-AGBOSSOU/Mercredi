@@ -8,7 +8,7 @@ function Form() {
     firstName: "",
     lastName: "",
     email: "",
-    password: "",
+    password: "",  
     address: "",
     address2: "",
     city: "",
