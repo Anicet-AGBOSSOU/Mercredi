@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-function Form() {
-  return (
-    <div>Form</div>
-  )
-}
-
-export default Form
-=======
 import React, { useEffect, useState } from 'react';
 
 function Form() {
@@ -143,4 +132,3 @@ function Form() {
 }
 
 export default Form;
->>>>>>> origin/Form
