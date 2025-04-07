@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+
 
 function Form() {
   const [message, setMessage] = useState("");
@@ -10,9 +12,8 @@ function Form() {
     email: "",
     password: "",
     address: "",
-    address2: "",
     city: "",
-    rememberMe: false
+    rememberMe: true
   });
 
   // Gestion des changements dans les champs
@@ -37,7 +38,7 @@ function Form() {
     setMessage("Formulaire envoyé avec succès !");
     setError(""); 
   };
-
+  
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
